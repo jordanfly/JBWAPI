@@ -408,7 +408,7 @@ public class Game {
     }
 
     public void enableFlag(final Flag flag) {
-        addCommand(EnableFlag.value, flag.value, 1);
+        addCommand(EnableFlag.value, flag.value, 0);
     }
 
     public Set<Unit> getUnitsOnTile(final int tileX, final int tileY) {
